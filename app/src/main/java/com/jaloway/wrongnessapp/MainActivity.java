@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void showWrong(View view) {
+    public void showWrongness(View view) {
         ImageView image = (ImageView) findViewById(R.id.imageView);
         image.setImageResource(R.drawable.wrong);
     }
